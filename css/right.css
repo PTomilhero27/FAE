@@ -1,0 +1,120 @@
+.right {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 2.5rem 7rem;
+}
+
+.campus {
+  text-align: center;
+  width: 150px;
+}
+
+.campus h1 {
+  color: var(--bs-fontTitle);
+  border-bottom: 3px solid #ffffff;
+  font-size: 5.7rem;
+  font-style: italic;
+}
+.campus p {
+  color: var(--bs-fontTitle);
+  letter-spacing: 0.5rem;
+  font-size: 1rem;
+  font-style: italic;
+}
+.descricao {
+  max-width: 420px;
+
+}
+.descricao h2 {
+  color: var(--bs-fontDescription);
+  font-weight: 400;
+  margin-top: 1rem;
+}
+
+.descricao p {
+  color: var(--bs-fontDescription);
+
+  font-size: 1.2rem;
+  margin-top: 1rem;
+}
+
+.descricao button {
+  width: 10rem;
+  height: 2.8rem;
+  border-radius: 0.4rem;
+  margin: 1.5rem 0;
+
+  background-color: #424032;
+  color: var(--bs-branco);
+
+  border: none;
+  cursor: pointer;
+
+  font-weight: 800;
+
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  display: flex;
+
+  transition: 0.2s;
+}
+
+.descricao button img {
+  margin-left: 0.5rem;
+}
+
+.descricao p a {
+  color: var(--bs-fontTitle);
+  transition: 0.2s;
+}
+
+.descricao p a:hover {
+  color: var(--bs-fontTitle-transparent);
+}
+
+.descricao button:hover {
+  background-color: #424032aa;
+}
+
+@media (max-width: 1300px) {
+  .campus {
+    display: none;
+  }
+
+  .right {
+    margin: 1rem;
+    z-index: 1;
+  }
+  .descricao {
+    padding-right:  5rem;
+    
+  }
+
+  .descricao__desktop {
+    display: none;
+  }
+
+  .descricao h2 {
+    font-size: 20px;
+  }
+  .descricao p {
+    color: var(--bs-fontDescription);
+    max-width: 400px;
+    font-size: 14px;
+    line-height: 24px;
+
+ 
+  }
+
+  #saiba-mais__mobile {
+    max-width: 160px;
+    font-size: 15px;
+    line-height: 18px;
+    color: #27261d;
+    font-weight: 400;
+    text-align: center;
+    margin-bottom: 2rem;
+  }
+}

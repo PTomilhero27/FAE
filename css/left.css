@@ -1,0 +1,138 @@
+.left {
+  display: flex;
+  flex-direction: column;
+  margin: 3.5rem 12rem;
+
+  text-align: left;
+}
+
+.intro__text {
+  color: var(--bs-branco);
+  font-size: 2rem;
+}
+
+.fae {
+  color: var(--bs-amarelo);
+  font-size: 5.7rem;
+  line-height: 3rem;
+  padding-right: 0.5rem;
+  letter-spacing: -0.8rem;
+}
+
+.intro__content {
+  display: flex;
+  text-align: left;
+}
+
+.araucaria {
+  line-height: 2rem;
+  margin-left: 0.5rem;
+}
+
+.cursos {
+  margin-top: 3rem;
+}
+
+.cursos__nosso--curso {
+  color: var(--bs-branco);
+  font-weight: 600;
+  font-size: 1.5rem;
+}
+.cursos__nosso--curso span {
+  color: var(--bs-amarelo);
+  font-weight: 100;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+
+  text-align: right;
+}
+
+.cursos__links--a {
+  text-decoration: none;
+  color: var(--bs-branco);
+  padding-right: 3rem;
+  font-size: 13px;
+}
+
+.cursos__links--a:hover {
+  color: var(--bs-branco-transparent);
+}
+
+.cursos__links {
+  width: 100%;
+  border-top: 1px solid #68665b;
+  border-bottom: 1px solid #68665b;
+  padding: 0.5rem;
+}
+
+.cursos__campus {
+  margin-top: 1.8rem;
+  color: var(--bs-fontColor);
+}
+
+.cursos__campus a {
+  color: var(--bs-fontColor);
+}
+.cursos__campus a:hover {
+  color: var(--bs-fontColor-transparent);
+}
+
+.intro__descricao {
+  display: none;
+}
+.cursos__mobile {
+  display: none;
+}
+
+@media (max-width: 1100px) {
+  .left {
+    margin: 1rem;
+    padding: 0 auto;
+
+    align-items: center;
+    justify-content: center;
+  }
+
+  .intro__text {
+    color: var(--bs-branco);
+    font-size: 2rem;
+  }
+
+  .fae {
+    color: var(--bs-amarelo);
+    font-size: 4.7rem;
+    line-height: 3.7rem;
+    padding-right: 0.5rem;
+    letter-spacing: -0.8rem;
+  }
+
+  .intro__descricao {
+    display: block;
+    color: var(--bs-branco);
+    margin-top: 1rem;
+    font-size: 14px;
+    line-height: 24px;
+  }
+
+  .cursos {
+    margin-top: 1.5rem;
+  }
+
+  .cursos__mobile {
+    display: block;
+    font-size: 11px;
+    line-height: 18px;
+    color: #d9d8d0;
+    font-weight: 400;
+    text-align: right;
+    margin: 1rem 0;
+  }
+
+  .cursos__mobile a{
+    color: #d9d8d0;
+  }
+}
